@@ -1,0 +1,9 @@
+header{
+    display: flex;
+    justify-content: space-around;
+}
+body{
+    margin:10px auto;
+    width:auto;
+    min-width: 1400px;
+}

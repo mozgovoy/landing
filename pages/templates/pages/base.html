@@ -10,6 +10,18 @@
     <title>{% block title %}Главная{% endblock title %}</title>
 </head>
 <body>
-    {% block main %}{% endblock main %}
+    <header>
+        <h1>Сайт-портфолио</h1>
+        <a href="Главная"></a>
+        <a href="Работы"></a>
+        <a href="Отзывы"></a>
+    </header>
+    <nav></nav>
+    <article>
+        {% block main %}
+
+        {% endblock main %}
+    </article>
+    <footer></footer>
 </body>
 </html>
